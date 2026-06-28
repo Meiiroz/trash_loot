@@ -15,7 +15,7 @@ No command needed to play: **aim at a prop → search it**.
 
 ## Installation
 1. Put the folder in `resources/[script]/loot_poubelles`.
-2. **Items**: open `ox_inventory_items.lua` (included), copy all of its content
+2. **Items**: open `ox_items.lua` (included), copy all of its content
    and paste it into `ox_inventory/data/items.lua` (inside the `return { ... }`).
    *(Optional: add a `.png` image per item in `ox_inventory/web/images/`.)*
 3. Add `ensure loot_poubelles` to your `server.cfg`.
@@ -77,7 +77,7 @@ Shelves marked via `/addshelf` are **saved** (KVP) and shared.
 
 ## Items
 The **25 items** used by the default loot are ready to use in
-**`ox_inventory_items.lua`** (EN labels, weights, descriptions) — just paste
+**`ox_items.lua`** (EN labels, weights, descriptions) — just paste
 them into `ox_inventory/data/items.lua` (see Installation).
 
 **7 are consumable** (effect handled by the script via `client.export`):
