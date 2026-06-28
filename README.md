@@ -14,12 +14,12 @@ No command needed to play: **aim at a prop → search it**.
 - [ox_inventory](https://github.com/overextended/ox_inventory)
 
 ## Installation
-1. Put the folder in `resources/[script]/loot_poubelles`.
+1. Put the folder in `resources/[script]/trash_loot`.
 2. **Items**: open `ox_items.lua` (included), copy all of its content
    and paste it into `ox_inventory/data/items.lua` (inside the `return { ... }`).
    *(Optional: add a `.png` image per item in `ox_inventory/web/images/`.)*
-3. Add `ensure loot_poubelles` to your `server.cfg`.
-4. `restart ox_inventory` then `restart loot_poubelles`.
+3. Add `ensure trash_loot` to your `server.cfg`.
+4. `restart ox_inventory` then `restart trash_loot`.
 5. In the server console, type `loottest`: it should print
    `OK: all items exist`. Otherwise it lists the missing items.
 
