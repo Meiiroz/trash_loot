@@ -1,4 +1,4 @@
-# loot_poubelles — Prop Looting (post-apo / zombie)
+# trash_loot — Prop Looting (post-apo / zombie)
 
 Prop looting for FiveM: trash bins, bags, lockers, fridges, vending machines,
 crates, barrels, first-aid kits and more. Each prop opens a **shared stash**
